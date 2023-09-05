@@ -5,15 +5,12 @@ nav ul {
    nav li { 
     margin-right: 30px;
    }
-   body {
+   .darkmode body {
   background-color: black;
   }
-   h2 {
+   .darkmode h2 {
   color: white;
   }
    .dark-mode p {
     color: white;
    }
-.dark-mode { 
-  backgroundcollor: white;  
-}
