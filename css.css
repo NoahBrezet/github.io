@@ -11,9 +11,9 @@ nav ul {
    h2 {
   color: white;
   }
-   p {
+   .dark-mode p {
     color: white;
    }
-.light-mode { 
+.dark-mode { 
   backgroundcollor: white;  
 }
