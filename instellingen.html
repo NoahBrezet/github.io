@@ -3,22 +3,6 @@
  <head>
   <link rel="stylesheet" type="text/css" href="css.css">
   <script>
-    // Achtergrondkleuren
-    const backgroundColors = ['black', 'white'];
-    let currentBackgroundColorIndex = 0;
-
-    // Functie om de achtergrondkleur te wisselen
-    function changeBackgroundColor() {
-        currentBackgroundColorIndex = (currentBackgroundColorIndex + 1) % backgroundColors.length;
-        const newBackgroundColor = backgroundColors[currentBackgroundColorIndex];
-        document.body.style.backgroundColor = newBackgroundColor;
-    }
-
-    // Knopelement selecteren
-    const changeBackgroundButton = document.getElementById('changeBackgroundButton');
-
-    // Klikgebeurtenis aan de knop koppelen
-    changeBackgroundButton.addEventListener('click', changeBackgroundColor);
 </script>
  </head>
   <body>
@@ -32,8 +16,7 @@
      </ul>
     </nav>
    </header>
-   <button id="changeBackgroundButton">Wissel Achtergrond</button>
-   <div id="content">
+   <button id="toggleModeButton">dark/light mode</button>
    <p>3.0</p>
    <footer style="background-color:tomato;">
     <p>email = noah.brezet@vlietlandcollege.nl</p>
