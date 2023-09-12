@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+ </head>
+  <body>
+   <header style="background-color:tomato;">
+    <h2>binaire stelsel</h2>
+    <nav>
+     <ul>
+      <li><a href="https://noahbrezet.github.io/github.io/"><p>mijn website</p></a></li>
+      <li><a href="https://noahbrezet.github.io/github.io/page2.html?"><p>binaire stelsel</p></a></li>
+      <li><a href="https://noahbrezet.github.io/github.io/instellingen.html?"><p>instellingen</p></a></li>
+      <li><a href="https://noahbrezet.github.io/github.io/page3.html?"><p>RGB en CMY-K</p></a></li>
+     </ul>
+    </nav>
+  </header>
+   <p> </p>
+   <p>4.0</p>
+   <footer style="background-color:tomato;">
+    <p>email = noah.brezet@vlietlandcollege.nl</p>
+    <p>sources = <ul>  
+     <a href="https://en.wikipedia.org/wiki/Binary_number"> wikiedia</a>
+    </ul></p>
+   </footer>
+  </body>
+</html>
