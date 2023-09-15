@@ -11,7 +11,7 @@ nav ul {
    #theme-switch:checked ~ body {
        background-color: black;
 }
-   h2 {
+   #theme-switch:checked ~ h2 {
   color: white;
   }
    #theme-switch:checked ~ p {
