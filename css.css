@@ -17,23 +17,3 @@ nav ul {
    #theme-switch:checked ~ p {
     color: white;
    }
-.theme-switch-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 20px;
-    background-color: #ccc;
-    border-radius: 25px;
-}
-#theme-switch {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-.theme-switch-container {
-    position: relative;
-    width: 40px;
-    height: 20px;
-    margin: 20px;
-}
