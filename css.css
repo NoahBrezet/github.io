@@ -10,7 +10,6 @@ nav ul {
 }
 nav li a {
     text-decoration: none;
-    text-align: center;
 }
 #theme-switch:checked ~ body {
        background-color: black;
