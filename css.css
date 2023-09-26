@@ -2,8 +2,10 @@ body {
     transition: background-color 0.3s ease;
 }
 nav ul {
-    display: flex;
+    display: block;
     list-style: none;
+    text-decoration: none;
+    text-align: center;
    }
    nav li { 
     margin-right: 30px;
