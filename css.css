@@ -2,18 +2,28 @@ body {
     transition: background-color 0.3s ease;
 }
 nav ul {
-    display: flex;
     list-style: none;
-   }
-   nav li { 
-    margin-right: 30px;
+    padding: 0;
+    margin: 0;
 }
-   #theme-switch:checked ~ body {
+nav li { 
+   display: inline;
+   margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #lightgrey;
+}
+#theme-switch:checked ~ body {
        background-color: black;
 }
-   #theme-switch:checked ~ h2 {
+#theme-switch:checked ~ h2 {
   color: white;
   }
-   #theme-switch:checked ~ p {
+#theme-switch:checked ~ p {
     color: white;
-   }
+}
