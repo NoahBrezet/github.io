@@ -2,7 +2,6 @@ body {
     transition: background-color 0.3s ease;
 }
 nav ul {
-    display: block;
     list-style: none;
    }
    nav li { 
@@ -10,6 +9,7 @@ nav ul {
 }
 nav li a {
     text-decoration: none;
+    display: block;
 }
 #theme-switch:checked ~ body {
        background-color: black;
