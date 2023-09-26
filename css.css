@@ -4,18 +4,20 @@ body {
 nav ul {
     display: block;
     list-style: none;
-    text-decoration: none;
-    text-align: center;
    }
    nav li { 
     margin-right: 30px;
 }
-   #theme-switch:checked ~ body {
+nav li a {
+    text-decoration: none;
+    text-align: center;
+}
+#theme-switch:checked ~ body {
        background-color: black;
 }
-   #theme-switch:checked ~ h2 {
+#theme-switch:checked ~ h2 {
   color: white;
-  }
-   #theme-switch:checked ~ p {
+}
+#theme-switch:checked ~ p {
     color: white;
-   }
+}
