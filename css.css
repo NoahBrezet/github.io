@@ -1,19 +1,16 @@
 nav ul {
-  list-style: none;
+    display: flex;
+    list-style: none;
+   }
+   nav li { 
+    margin-right: 30px;
 }
-nav li { 
-   display: inline;
-   margin-right: 30px;
-}
-a {
-  text-decoration: none;
-}
-body {
+   body {
        background-color: black;
 }
-h2 {
+   h2 {
   color: white;
   }
-p {
+   p {
     color: white;
-}
+   }
