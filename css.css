@@ -2,21 +2,21 @@ body {
     transition: background-color 0.3s ease;
 }
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 nav li { 
    display: inline;
    margin-right: 30px;
 }
-nav ul li a {
+ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
-nav ul li a:hover {
-  color: #lightgrey;
+ul li a:hover {
+  color: #ff6600;
 }
 body {
        background-color: black;
