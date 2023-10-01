@@ -18,12 +18,12 @@ nav ul li a {
 nav ul li a:hover {
   color: #lightgrey;
 }
-#theme-switch:checked ~ body {
+body {
        background-color: black;
 }
-#theme-switch:checked ~ h2 {
+h2 {
   color: white;
   }
-#theme-switch:checked ~ p {
+p {
     color: white;
 }
