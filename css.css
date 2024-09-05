@@ -35,9 +35,9 @@ nav li a {
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: #665c4d;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: #9e8e77; }
 
 .top-level-menu
 {
@@ -54,7 +54,7 @@ nav li a {
     width: 150px;
     background: #999999;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: #9e8e77; }
 
 .top-level-menu li:hover > ul
 {
@@ -67,8 +67,8 @@ nav li a {
 
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
-    font: bold 10px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #665c4d;
     text-decoration: none;
     padding: 0 0 0 10px;
 
@@ -76,4 +76,4 @@ nav li a {
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #000000; }
+.top-level-menu a:hover { color: #9e8e77; }
