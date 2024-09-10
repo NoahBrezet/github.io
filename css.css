@@ -34,7 +34,7 @@ nav li a {
 .second-level-menu > li
 {
     position: relative;
-    height: 15px;
+    height: 40px;
     background: #665c4d;
 }
 .second-level-menu > li:hover { background: #9e8e77; }
@@ -50,7 +50,7 @@ nav li a {
 {
     position: relative;
     float: left;
-    height: 30px;
+    height: 40px;
     width: 150px;
     background: #665c4d;
 }
