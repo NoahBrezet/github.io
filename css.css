@@ -68,7 +68,7 @@ nav li a {
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Arial, Helvetica, sans-serif;
-    color: #665c4d;
+    color: white;
     text-decoration: none;
     padding: 0 0 0 10px;
 
@@ -76,5 +76,4 @@ nav li a {
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #9e8e77; }
 
