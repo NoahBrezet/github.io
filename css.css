@@ -29,9 +29,9 @@ footer {
 {
     position: relative;
     height: 30px;
-    background: #665c4d;
+    background: #664422;
 }
-.second-level-menu > li:hover { background: #9e8e77; }
+.second-level-menu > li:hover { background: #996633; }
 
 .top-level-menu
 {
