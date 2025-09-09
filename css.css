@@ -8,10 +8,10 @@ p {
     color: white;
 }
 header {
-    background-color: tomato;
+    background-color: #aa0000;
 }
 footer {
-    background-color: tomato;
+    background-color: #aa0000;
 }
 .second-level-menu
 {
@@ -46,9 +46,9 @@ footer {
     float: left;
     height: 30px;
     width: 150px;
-    background: #665c4d;
+    background: #664422;
 }
-.top-level-menu > li:hover { background: #9e8e77; }
+.top-level-menu > li:hover { background: #996633; }
 
 .top-level-menu li:hover > ul
 {
