@@ -7,6 +7,16 @@ h2 {
 p {
     color: white;
 }
+p a {
+  color: #007BFF;         /* Mooie blauwe kleur */
+  text-decoration: none;  /* Geen standaard onderstreep */
+  font-weight: 500;       /* Iets dikkere tekst */
+  transition: color 0.3s ease;
+}
+
+p a:hover {
+  color: #0056b3;         /* Donkerdere kleur bij hover */
+}
 header {
     background-color: #aa0000;
 }
