@@ -1,29 +1,30 @@
 body {
     background-color: black;
-}
+} /*achtergrond kleur*/
 h2 {
     color: white;
-}
+} /*kleur titel*/
 p {
     color: white;
-}
+} /* kleur letters*/
 a {
-  color: #007BFF;         /* Mooie blauwe kleur */
+  color: #007BFF;         /* Kleur links */
   text-decoration: none;  /* Geen standaard onderstreep */
   font-weight: 500;       /* Iets dikkere tekst */
-  transition: color 0.3s ease;
+  transition: color 0.3s ease; /* Soepele overgang bij hover */
 }
 
 a:hover {
   color: #0056b3;         /* Donkerdere kleur bij hover */
 }
 header {
-    background-color: #aa0000;
+    background-color: #aa0000; /*kleur balk bovenaan*/
 }
 footer {
-    background-color: #aa0000;
+    background-color: #aa0000; /*kleur balk onderaan*/
+    text-align: center;
 }
-.second-level-menu
+.second-level-menu /* sub menus */
 {
     position: absolute;
     top: 30px;
@@ -35,22 +36,22 @@ footer {
     display: none;
 }
 
-.second-level-menu > li
+.second-level-menu > li /*links in de sub menus*/
 {
     position: relative;
     height: 30px;
     background: #664422;
 }
-.second-level-menu > li:hover { background: #996633; }
+.second-level-menu > li:hover { background: #996633; } /* kleur verandering bij hover*/
 
-.top-level-menu
+.top-level-menu /* main menu */
 {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.top-level-menu > li
+.top-level-menu > li /* links in het main menu */
 {
     position: relative;
     float: left;
@@ -58,7 +59,7 @@ footer {
     width: 150px;
     background: #664422;
 }
-.top-level-menu > li:hover { background: #996633; }
+.top-level-menu > li:hover { background: #996633; } /* kleur verandering bij hover*/
 
 .top-level-menu li:hover > ul
 {
