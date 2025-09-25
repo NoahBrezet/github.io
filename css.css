@@ -4,6 +4,9 @@ body {
 h2 {
     color: white;
 } /*kleur titel*/
+h3 {
+    color: white;
+} /*kleur subtitel*/
 p {
     color: white;
 } /* kleur letters*/
