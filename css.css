@@ -13,7 +13,6 @@ a {
   font-weight: 500;       /* Iets dikkere tekst */
   transition: color 0.3s ease; /* Soepele overgang bij hover */
 }
-
 a:hover {
   color: #0056b3;         /* Donkerdere kleur bij hover */
 }
@@ -65,10 +64,7 @@ footer {
     /* On hover, display the next level's menu */
     display: inline;
 }
-
-
 /* Menu Link Styles */
-
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Arial, Helvetica, sans-serif;
